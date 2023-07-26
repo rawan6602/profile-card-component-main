@@ -60,30 +60,36 @@ table {
 }
 body{
   font-family: 'Kumbh Sans', sans-serif;
-  /* background-image: url(/images/bg-pattern-top.svg); */
+  background-image: url(/images/bg-pattern-top.svg) , url(/images/bg-pattern-bottom.svg);
   background-color: hsl(185, 75%, 39%);
-}
+  background-repeat: no-repeat;
+  background-position:-4.3vw -40vh, 53vw 44vh;
 
+}
 .card{
   background-color: #ffff;
   width: 350px;
   border-radius: 15px;
   overflow: hidden;
+  position: relative;
+  z-index: 10;
 }
 .info{
   display: flex;
   align-items: center;
   flex-direction: column;
- 
 }
-
 .Profile-pic{
   border-radius: 100%;
   display: flex;
-  border: #ffff;
-  border-width: 6px;
+  padding: 4px;
+  background-color: #ffff;
 }
-
+.container{
+  display:flex;
+  justify-content: center;
+  margin-top: -55px;
+}
 .name-info{
   display: flex;
   padding-top: 28px;
@@ -106,9 +112,7 @@ body{
   border-top: 1px solid #e4e6ea;
   padding-top: 28px;
   justify-content: space-evenly;
- 
 }
-/* 109 */
 .number{
   font-weight: 700;
   font-size: 1.1rem;
@@ -116,7 +120,6 @@ body{
 .hedden{
   color:hsl(0, 0%, 59%);
 }
-
 .num-title{
   font-size: 0.65rem;
   letter-spacing: 0.1rem;
@@ -124,14 +127,14 @@ body{
   padding-top: 9px;
   display: flex;
 }
-
 .num{
   margin-left: 9px;
   font-size: 1.1rem;
   font-weight: 400;
 }
-
 .total{
   display: flex;
   flex-direction: column;
 }
+
+
