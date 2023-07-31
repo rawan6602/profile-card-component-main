@@ -22,3 +22,4 @@ profile-card-component-main
 *.njsproj
 *.sln
 *.sw?
+dist

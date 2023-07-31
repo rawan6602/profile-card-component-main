@@ -58,11 +58,13 @@ table {
   text-align: center; 
   color: hsl(228, 45%, 44%); 
 }
+html{
+  overflow:hidden;
+}
 body{
   font-family: 'Kumbh Sans', sans-serif;
-  background-color: hsl(185, 75%, 39%);
+  background-color: hsl(185, 75%, 39%); 
   overflow:hidden;
-  position:relative;
 }
 .card{
   background-color: #ffff;
