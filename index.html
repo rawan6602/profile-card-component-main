@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
   <main id="app">
+    <div class="background"> 
+      <img class="background-pic b1" alt='background' src="/images/bg-pattern-top.svg">
+      <img class="background-pic b2" alt='background' src="/images/bg-pattern-bottom.svg">
+
     <div class="card">
         <div class="images">
-          <img src="/images/bg-pattern-card.svg">
+          <img alt="background-img" src="/images/bg-pattern-card.svg">
           <div class="container">
-            <img class="Profile-pic" src="/images/image-victor.jpg">
+            <img alt="Profile-pic" class="Profile-pic" src="/images/image-victor.jpg">
           </div>
         </div>
 <div class="info">
@@ -44,14 +48,17 @@
           <div class="hedden num-title">Photos</div>
         </div>
       </div>
+    </div>      
 </div>
     </div>
   </main>
 
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/rawan6602">Rawan Essam</a>.
   </div>
-  <!-- <img class="background-img" src="/images/bg-pattern-bottom.svg"> -->
+</footer>
+
 </body>
 </html>

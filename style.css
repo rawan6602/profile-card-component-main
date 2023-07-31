@@ -60,11 +60,9 @@ table {
 }
 body{
   font-family: 'Kumbh Sans', sans-serif;
-  background-image: url(/images/bg-pattern-top.svg) , url(/images/bg-pattern-bottom.svg);
   background-color: hsl(185, 75%, 39%);
-  background-repeat: no-repeat;
-  background-position:-4.3vw -40vh, 53vw 44vh;
-
+  overflow:hidden;
+  position:relative;
 }
 .card{
   background-color: #ffff;
@@ -92,11 +90,11 @@ body{
 }
 .name-info{
   display: flex;
-  padding-top: 28px;
-  padding-bottom: 16px;
+  padding-top: 25px;
+  padding-bottom: 13px;
 }
 .name{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.1rem;
 }
 .london{
@@ -114,7 +112,7 @@ body{
   justify-content: space-evenly;
 }
 .number{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.1rem;
 }
 .hedden{
@@ -135,6 +133,21 @@ body{
 .total{
   display: flex;
   flex-direction: column;
+  text-align:center;
 }
 
-
+.background{
+  position:relative;
+  width:350px
+}
+.background-pic{
+  position:absolute;
+}
+.b1{
+  top:-700px;
+  left:-825px;
+}
+.b2{
+  top:225px;
+  left:135px;
+}
